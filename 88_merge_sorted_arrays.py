@@ -22,8 +22,6 @@ class Solution:
                 nums1[i] = n2
             i -= 1
 
-
-# Testing
 nums1 = [1, 2, 3, 0, 0, 0]
 m = 3
 nums2 = [2, 5, 6]
@@ -33,7 +31,3 @@ solution = Solution()
 solution.merge(nums1, m, nums2, n)
 
 print(nums1)
-
-
-
-
