@@ -9,7 +9,7 @@ class Solution:
                 nums[p1] = nums[p2]
                 p1 += 1
                 k += 1
-        # Alternate solution (a bit faster, apparently)  
+        # Alternate 2-pointer solution (a bit faster, apparently)  
         # p2 = 0
         # while p2 < len(nums):
         #     if nums[p2] == val:
